@@ -1,21 +1,30 @@
+<?php require "reusable.php"; ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Maple Network</title>
-        <link rel="shortcut icon" href="files/MapleNetwork-Pfp.png" type="image/x-icon" />
-        <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/style.css">
-        <script src="js/scripts.js"></script>
-    </head>
+    <?php ImportHead("Maple Network") ?>
     <body>
-        <header>
+        <?php ImportHeader() ?>
 
-        </header>
-        <center><h1>Welcome To Maple Network</h1>
-        <h2>Our Website Is Currently Still Under Construction Hopefully Il Have The Time To Make It Soon</h2></center>
-        <footer>
+        <main>
+            <?php ImportBigBanner("Welcome To MapleNetwork") ?>
 
-        </footer>
+            <br>
+
+            <h1 class="center">What is MapleNetwork?</h1>
+            
+            <br>
+
+            <h3 class="center">
+                MapleNetwork is a small company that aims to create a community for our servers and games.
+                <br>
+                We also have other services such as a website, game and vps hosting.
+                <br>
+                We value the input of our community and strive to listen to your feedback and suggestions in order to improve your experience.
+            </h3>
+        
+            <br>
+        </main>
+        
+        <?php ImportFooter() ?>
     </body>
 </html>

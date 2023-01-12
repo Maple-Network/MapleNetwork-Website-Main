@@ -1,0 +1,36 @@
+:root{
+    /*Root*/
+    --BackgroundColor: #333;
+    --TextColor: white;
+    /*Roor End*/
+
+
+    /*Header*/
+    --HeaderBackgroundColor: #333;
+    --HeaderLinkColor: #f2f2f2;
+    --HeaderLinkHoverColor: gold;
+    --HeaderLinkActiveColor: #ccc;
+    --HeaderOutlineColor: black;
+    --HeaderTextSize: 24px;
+    /*Mobile*/
+    --MobileLinksAlign: left;
+    /*Header End*/
+
+
+    /*Main*/
+    --MainBackgroundColor: #c87726;
+    
+    /*Banner*/
+    --BannerTextColor: #fff;
+    --BannerTextSize: 72px;
+    --BannerTextSizeSmall: 42px;
+    /*Main End*/
+
+
+    /*Footer*/
+    --FooterBackgroundColor: black;
+    --FooterTextColor: white;
+    --FooterLinkColor: #ccc;
+    --FooterLinkHoverColor: gold;
+    /*Footer End*/
+}

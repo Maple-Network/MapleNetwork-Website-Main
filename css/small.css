@@ -1,0 +1,43 @@
+@import url(config.css);
+
+/*Set The Maximum Width For Small*/
+@media screen and (max-width: 800px) {
+    /*Header*/
+    /*Hide All Links That Arent The First One*/
+    header a:not(:first-child) {
+        display: none;
+    }
+    /*Show The List Button*/
+    header a#ToggleList {
+        display: block;
+    }
+
+    header.ListOpen {
+        position: relative;
+    }
+    header.ListOpen #ToggleList {
+      position: absolute;
+    }
+    header.ListOpen a {
+      float: none;
+      display: block;
+      text-align: var(--MobileLinksAlign);
+    }
+    /*Header End*/
+
+    /*Main*/
+    /*Big Banner*/
+    .BigBanner span{
+        line-height: 0.7;
+    }
+    .BigBanner span b {
+        font-size: var(--BannerTextSizeSmall);
+    }
+    /*Big Banner End*/
+    /*Small Banner*/
+    .SmallBanner span b {
+        font-size: var(--BannerTextSizeSmall);
+    }
+    /*Small Banner End*/
+    /*Main End*/
+}
