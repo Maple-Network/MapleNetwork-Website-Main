@@ -18,8 +18,8 @@
     function ImportHeader() { ?>
         <header id="header" class="ListClose">
             <a href="index.php" <?php echo basename($_SERVER['PHP_SELF'])==="index.php" ? "class='active'" : "" ;?>><p>Home</p></a>
-            <a href="https://mc.maplenetwork.me/" ><p>Minecraft</p></a>
             <a href="https://hosting.maplenetwork.me/" ><p>Hosting</p></a>
+            <a href="https://mc.maplenetwork.me/" ><p>Minecraft</p></a>
             <a href="About.php" <?php echo basename($_SERVER['PHP_SELF'])==="About.php" ? "class='active'" : "" ;?>><p>About Us</p></a>
             <a href="javascript:void(0);" id="ToggleList" >
                 <span>&equiv;</span>

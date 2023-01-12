@@ -1,7 +1,40 @@
 {
     "Header" : {
         "Home" : "Home",
+        "Hosting" : "Hosting",
+        "Minecraft" : "Minecraft",
         "AboutUs" : "About Us"
     },
-    "BigBannerText" : "Welcome To Maple Network"
+    "Main" : {
+        "Home" : {
+            "BannerText" : "Welcome To Maple Network",
+            "Text1" : {
+                "Header" : "What is MapleNetwork?",
+                "Line1" : "MapleNetwork is a small company that aims to create a community for our servers and games.",
+                "Line2" : "We also have other services such as a website, game and vps hosting.",
+                "Line3" : "We value the input of our community and strive to listen to your feedback and suggestions in order to improve your experience."
+            }
+        },
+        "AboutUs" : {
+            "BannerText" : "About Us",
+            "Text1" : {
+                "Line1" : "Maple Network is a small, owner-operated business comprising of four individuals, one of whom serves as the primary developer.",
+                "Line2" : "We founded this company as a centralized hub for organizing events and activities for our friends and community.",
+                "Line3" : "Our goal is to foster a positive, inclusive environment where people can come together and have a great time.",
+                "Line4" : "We are always looking for new ways to improve our services and expand our offerings."
+            }
+        }
+
+    },
+
+    "Footer" : {
+        "F1" : {
+            "Header" : "Contact Us",
+            "Line1" : "contact@maplenetwork.me"
+        },
+        "F2" : {
+            "Header" : "Join The Community",
+            "Line1" : "Discord Server"
+        }
+    }
 }
