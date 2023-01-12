@@ -7,6 +7,7 @@
     },
     "Main" : {
         "Home" : {
+            "SiteTitle" : "Maple Network",
             "BannerText" : "Welcome To Maple Network",
             "Text1" : {
                 "Header" : "What is MapleNetwork?",
@@ -16,6 +17,7 @@
             }
         },
         "AboutUs" : {
+            "SiteTitle" : "About Us || Maple Network",
             "BannerText" : "About Us",
             "Text1" : {
                 "Line1" : "Maple Network is a small, owner-operated business comprising of four individuals, one of whom serves as the primary developer.",

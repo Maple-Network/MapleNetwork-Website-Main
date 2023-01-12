@@ -1,0 +1,42 @@
+{
+    "Header" : {
+        "Home" : "Accueil",
+        "Hosting" : "Hosting",
+        "Minecraft" : "Minecraft",
+        "AboutUs" : "À Propos de Nous"
+    },
+    "Main" : {
+        "Home" : {
+            "SiteTitle" : "Maple Network",
+            "BannerText" : "Bienvenue A Maple Network",
+            "Text1" : {
+                "Header" : "Qu'est-ce que MapleNetwork?",
+                "Line1" : "MapleNetwork est une petite entreprise qui vise à créer une communauté pour nos serveurs et nos jeux.",
+                "Line2" : "Nous avons également d'autres services tels qu'un site web, jeux et de vps hosting.",
+                "Line3" : "Nous valorisons l'avis de notre communauté et nous nous efforçons d'écouter vos commentaires et suggestions afin d'améliorer votre expérience."
+            }
+        },
+        "AboutUs" : {
+            "SiteTitle" : "À Propos de Nous || Maple Network",
+            "BannerText" : "À Propos de Nous",
+            "Text1" : {
+                "Line1" : "Maple Network est une petite entreprise privée composée de quatre individus, dont un en tant que développeur principal.",
+                "Line2" : "La société a été créée dans le but de centraliser les événements et les activités pour nos amis et de créer une communauté amusante et inclusive.",
+                "Line3" : "Alors que nous continuons à croître, notre mission reste de favoriser une communauté de personnes qui partagent notre passion pour une bonne compagnie et le plaisir.",
+                "Line4" : "Nous sommes toujours à la recherche de nouvelles façons d'améliorer nos services et d'élargir nos offres."
+            }
+        }
+
+    },
+
+    "Footer" : {
+        "F1" : {
+            "Header" : "Contactez-nous",
+            "Line1" : "contact@maplenetwork.me"
+        },
+        "F2" : {
+            "Header" : "Rejoignez la communauté",
+            "Line1" : "Serveur Discord"
+        }
+    }
+}

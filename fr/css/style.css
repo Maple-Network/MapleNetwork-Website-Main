@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('config.css');
+@import url('small.css');
+
+:root {
+	background-color: var(--BackgroundColor);
+    color: var(--TextColor);
+    text-shadow: 0 0 10px black;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar { 
+    display: none;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+span {
+    word-wrap: break-word;
+}
+
+p {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+/*Header*/
+header {
+    overflow: hidden;
+    background-color: var(--HeaderBackgroundColor);
+    outline: var(--HeaderOutlineColor) solid 1px;
+}
+
+header a {
+    float: left;
+    display: block;
+    color: var(--HeaderLinkColor);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: var(--HeaderTextSize);
+    
+}
+
+header a.active {
+    color: var(--HeaderLinkActiveColor);
+}
+
+header a:hover {
+    color: var(--HeaderLinkHoverColor);
+}
+
+header a.active:hover {
+    color: var(--HeaderLinkActiveColor);
+}
+
+#ToggleList {
+    display: none;
+    float: right;
+    right: 0;
+    top: 0;
+}
+
+#ToggleList span {
+    display: block;
+    font-size: 42px;
+}
+/*Header End*/
+
+
+/*Main*/
+main {
+    background-color: var(--MainBackgroundColor);
+}
+/*Big Banner*/
+.BigBanner {
+    position: relative;
+}
+
+.BigBanner img {
+    width: 100%;
+    height: 100%;
+}
+
+.BigBanner span {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: calc(50% - var(--BannerTextSize) );
+    width: 100%;
+    font-size: var(--BannerTextSize);
+    color: var(--BannerTextColor);
+    text-shadow: 0 0 10px black;
+}
+/*Big Banner End*/
+
+/*Small Banner*/
+.SmallBanner {
+    position: relative;
+}
+
+.SmallBanner img {
+    width: 100%;
+    height: 100%;
+}
+
+.SmallBanner span {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: calc(75% - var(--BannerTextSize) );
+    width: 100%;
+    font-size: var(--BannerTextSize);
+    color: var(--BannerTextColor);
+    text-shadow: 0 0 10px black;
+}
+
+/*Small Banner End*/
+
+/*Main End*/
+
+
+/*Footer*/
+footer {
+    background-color: var(--FooterBackgroundColor);
+    padding: 10px 0px;
+    display: flex;
+}
+/*Footer Is 2 Divs*/
+footer div {
+    width: 50%;
+    padding: 0px 10px;
+    color: var(--FooterTextColor);
+    font-size: 24px;
+}
+footer div a {
+    color: var(--FooterLinkColor);
+    text-decoration: underline;
+}
+footer div a:hover {
+    color: var(--FooterLinkHoverColor);
+}
+footer div.F1 {
+    float: left;
+    text-align: left;
+}
+footer div.F2 {
+    float: right;
+    text-align: right;
+}
+/*Footer End*/
